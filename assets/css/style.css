@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: pink;
+    height: 95vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.game_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.game_section .span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 50vh;
+    width: 30%;
+}
+
+.info_section {
+    text-align: center;
+}
+
+.buttonsAndWinnerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons_user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.buttons_user img {
+    width: 150px;
+    height: 150px;
+    transition: 0.2s;
+    cursor: pointer;
+    filter: drop-shadow(5px 0px 0px black);
+}
+
+.inp {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    gap: 10px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.inp .infoText {
+    font-size: 24px;
+    color: #000;
+}
+
+.inp .user_input {
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+}
+
+.inp .user_btn {
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+.firstText,
+.secondText {
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+.user1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: YELLOW;
+    gap: 10px;
+}
+
+.user1Div {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.chat {
+    width: 40%;
+    height: 48vh;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chatMessages {
+    width: 95%;
+    height: 90%;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+}
+
+.chatSend {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    gap: 10px;
+}
+
+.chatSend input {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.chatSend button {
+    width: 15%;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.messageDiv {
+    padding: 10px 10px;
+    background-color: white;
+    height: max-content;
+    border-radius: 10px;
+    display: flex;
+}
+
+.my-message {
+    align-self: flex-end;
+}
+
+.incoming-message {
+    align-self: flex-start;
+}
+
+/* .messageDiv {
+    padding: 10px 10px;
+    background-color: white;
+    width: fit-content;
+    height: max-content;
+    border-radius: 10px;
+}
+.ert{
+    margin-left: auto;
+    padding: 10px 10px;
+    background-color: white;
+    width: fit-content;
+    height: max-content;
+    border-radius: 10px;
+} */
